@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* h1 {
+    @apply text-5xl font-bold;
+  }
+  h3 {
+    @apply text-2xl font-bold;
+  }
+  h5 {
+    @apply text-xl font-bold;
+  } */
+  label {
+    @apply text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70;
+  }
+
+  input,
+  textarea {
+    @apply w-full p-2 border border-gray-200 rounded-md;
+  }
+}
